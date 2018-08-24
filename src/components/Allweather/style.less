@@ -1,0 +1,146 @@
+@import '~style/helpers';
+
+.home {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+.container { 
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	width: 414px;
+	height: 736px;
+	text-align: center;
+	background-size: cover;
+	margin: 0 auto;
+
+	.a
+	{
+		margin-top: 10%;
+  		margin-left: 32%;
+		text-decoration:  none;
+  		font-size: 1.2rem;
+  		padding: 0.3rem 0.3rem;
+  		display: block;
+  		background: #6DA4CC;
+  		border: 1px solid #fff;
+  		color: #fff;
+  		font-weight: 150;
+  		border-radius: 8px;
+  		transition: all 0.3s ease-in-out;
+		width: 37%;
+	}
+
+	.a:hover {
+  	background: #fff;
+  	color: #6DA4CC;
+  	border: 1px solid transparent;
+	}
+}
+
+
+.cloudy {
+	//working
+	color: #403635;
+	background-image: url('../../assets/backgrounds/cloudy.jpg') ;
+}
+
+.mist {
+	//working
+	background-image: url('../../assets/backgrounds/mist.jpg') ;
+}
+
+.smoke {
+	//working
+	background-image: url('../../assets/backgrounds/smoke.jpg') ;
+}
+
+.partlyCloudy {
+	//working
+	color: #4D4645;
+	background-image: url('../../assets/backgrounds/partlyCloudy.jpg') ;
+	
+ 	
+}
+
+.sunny
+{
+	color: #000;
+	background-image: url('../../assets/backgrounds/sunnyWeather.jpg') ;
+}
+
+.rainy
+{
+	//working
+	background-image: url('../../assets/backgrounds/rainy.jpg') ;
+}
+
+.clear
+{
+	//working
+	background-image: url('../../assets/backgrounds/clearSky.jpeg');
+}
+
+.default
+{
+	background-image: url('../../assets/backgrounds/clear-iphone.jpg');
+}
+
+.header {
+	padding-top: 100px;
+    font-size: 1.7em;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	height: 5%;
+}
+
+.city {
+	font-size: 1.7em;
+	font-weight: 400;	
+}
+
+.conditions {
+	// flex: 1;
+	font-size: 1em;
+}
+
+.temperature {
+	// flex: 2;
+	margin-top: 0;
+	font-size: 4.8em;
+	font-weight: 300;
+	letter-spacing: -12px;
+}
+
+.temperature {
+	// flex: 2;
+	margin-top: 0;
+	font-size: 4.8em;
+	font-weight: 300;
+	letter-spacing: -12px;
+}
+
+.textField {
+	// flex: 2;
+	margin-top: 10%;
+	width: 50%;
+	font-size: 1em;
+	font-weight: 100;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 10;
+	border-radius: 8px;
+}
+
+.filled:after {
+	content: "°";
+	margin: 0 0 0 1rem;
+	font-size: 0.5em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
